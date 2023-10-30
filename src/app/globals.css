@@ -25,3 +25,13 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+.content-height {
+  min-height: calc(100vh - 15rem);
+}
+.main-img-height {
+  height: calc(100vh - 5rem);
+}
+.remove-select-styling {
+  appearance: none;
+  -webkit-appearance: none;
+}
