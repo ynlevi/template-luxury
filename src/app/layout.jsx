@@ -17,7 +17,7 @@ export default function RootLayout({ children }) {
           <Header />
           <div
             id="content"
-            className="content-height bg-slate-800 mt-20 lg:mt-0 lg:ml-32"
+            className="min-h-screen w-full mt-20 lg:mt-0 lg:ml-36 "
           >
             {children}
           </div>
